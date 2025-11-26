@@ -1,0 +1,66 @@
+[26Nov2025 14:57:34.294] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, nogui]
+[26Nov2025 14:57:34.297] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.9+10-Ubuntu-124.04
+[26Nov2025 14:57:34.298] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 21.0.9 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[26Nov2025 14:57:34.621] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /workspaces/Minecraft-Server-/servidor_minecraft/config/fml.toml is not correct. Correcting
+[26Nov2025 14:57:34.623] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []
+[26Nov2025 14:57:34.624] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowLogHelpMessage] was corrected from null to true
+[26Nov2025 14:57:34.625] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSquir] was corrected from null to false
+[26Nov2025 14:57:34.625] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowShowCPU] was corrected from null to false
+[26Nov2025 14:57:34.649] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
+[26Nov2025 14:57:34.789] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///workspaces/Minecraft-Server-/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
+[26Nov2025 14:57:35.153] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[26Nov2025 14:57:35.698] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments [nogui]
+[26Nov2025 14:57:44.657] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 60.0.0, for MC 1.21.10 with MCP 20251007.101210
+[26Nov2025 14:57:44.658] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v60.0.0 Initialized
+[26Nov2025 14:57:44.682] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[26Nov2025 14:57:45.053] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/Minecraft-Server-/servidor_minecraft/config/forge-common.toml is not correct. Correcting
+[26Nov2025 14:57:45.056] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SynchronizedConfig{DataHolder:{}}. 
+[26Nov2025 14:57:45.057] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.logLegacyTagWarnings was corrected from null to its default, OFF. 
+[26Nov2025 14:57:45.381] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[26Nov2025 14:57:46.113] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 60.0.0 Target: 60.1.0
+[26Nov2025 14:57:47.672] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[26Nov2025 14:57:49.398] [main/INFO] [net.minecraft.server.Main/]: No existing world data, creating new world
+[26Nov2025 14:57:51.010] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1461 recipes
+[26Nov2025 14:57:51.043] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1574 advancements
+[26Nov2025 14:57:51.311] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.10
+[26Nov2025 14:57:51.313] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[26Nov2025 14:57:51.314] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[26Nov2025 14:57:51.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[26Nov2025 14:57:51.474] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[26Nov2025 14:57:51.548] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[26Nov2025 14:57:51.613] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[26Nov2025 14:57:51.614] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[26Nov2025 14:57:51.614] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[26Nov2025 14:57:51.615] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[26Nov2025 14:57:51.637] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
+[26Nov2025 14:57:51.638] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SynchronizedConfig{DataHolder:{}}. 
+[26Nov2025 14:57:51.639] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[26Nov2025 14:57:51.640] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[26Nov2025 14:57:51.642] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[26Nov2025 14:57:51.643] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[26Nov2025 14:57:51.643] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
+[26Nov2025 14:57:51.666] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[26Nov2025 14:57:52.241] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Selecting global world spawn...
+[26Nov2025 14:58:06.230] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 0 persistent chunks...
+[26Nov2025 14:58:06.232] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 100%
+[26Nov2025 14:58:06.237] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Time elapsed: 13998 ms
+[26Nov2025 14:58:06.242] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (14.610s)! For help, type "help"
+[26Nov2025 14:58:06.320] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[26Nov2025 14:59:03.404] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Nico0131[/127.46.99.27:44901] logged in with entity id 23 at (147.5, 74.0, -59.5)
+[26Nov2025 14:59:03.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nico0131 joined the game
+[26Nov2025 14:59:24.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command. See below for error
+[26Nov2025 14:59:24.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: opp Nico0131<--[HERE]
+[26Nov2025 14:59:41.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made Nico0131 a server operator
+[26Nov2025 14:59:57.246] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Nico0131 lost connection: Disconnected
+[26Nov2025 14:59:57.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nico0131 left the game
+[26Nov2025 15:00:00.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[26Nov2025 15:00:00.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[26Nov2025 15:00:00.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[26Nov2025 15:00:00.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[26Nov2025 15:00:00.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[26Nov2025 15:00:02.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[26Nov2025 15:00:02.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[26Nov2025 15:00:03.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[26Nov2025 15:00:03.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[26Nov2025 15:00:03.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[26Nov2025 15:00:03.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
