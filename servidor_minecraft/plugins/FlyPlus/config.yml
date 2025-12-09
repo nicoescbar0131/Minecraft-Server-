@@ -1,0 +1,59 @@
+#####################################
+# FlyPlus Plugin                    #
+# Author: Manole                    #
+# Version: 3.4.3                    #
+#####################################
+
+#The message that a player receives when they execute a command but have no permission for it
+No-Permission-Message: '&8[&cNavidadland&8]: &7No tienes permisos!'
+
+# Missing args.
+No-Argument-Message: '&8[&cNavidadland&8]: &cMissing arguments!'
+
+#When the player that you try to change fly mode is offline/doesn't exist.
+No-Target-Message: '&8[&cNavidadland&8]: &7Ese jugador no esta en linea!'
+
+#Messages that admin receives.
+Reload-Message: '&8[&cNavidadland&8]: &2Config Reloaded!'
+
+#Message when you toggle fly on|off for yourself.
+Enable-Message: '&8[&cNavidadland&8]: #8addffModo de vuelo activado!'
+Disable-Message: '&8[&cNavidadland&8]: #8addffModo de vuelo desactivado!'
+
+#NOTE: %player% variable only available for the messages below.
+#In messages below, the %player% variable is replaced with the player's name.
+#Messages when you toggle fly on|off for someone else.
+Enabled-By-Message: '&8[&cNavidadland&8]r: &2Fly enabled by %player%!'
+Enabled-For-Message: '&8[&cNavidadland&8]: &2Fly enabled for %player%!'
+Disabled-By-Message: '&8[&cNavidadland&8]: &4Fly disabled by %player%!'
+Disabled-For-Message: '&8[&cNavidadland&8]: &4Fly disabled for %player%!'
+Enabled-For-Everyone: '&8[&cNavidadland&8]: &2Fly enabled from admins!'
+Disabled-For-Everyone: '&8[&cNavidadland&8]: &4Fly disabled from admins!'
+Admin-Enabled-All-Message: '&8[&cNavidadland&8]: &2You enabled fly for everyone!'
+Admin-Disabled-All-Message: '&8[&cNavidadland&8]: &4You disabled fly for everyone!'
+
+#Change fly state for the person that executes /fly all [on/off].
+Include-Sender-On-Fly-All: false
+
+#Message that shows up when player enters a world that's not listed below.
+Plugin-Disabled-Message:
+  Enabled: true
+  Message: '&8[&cNavidadland&8]: &7El modo de vuelo esta desactivado en este mundo.'
+Plugin-Enabled-Message:
+  Enabled: true
+  Message: '&8[&cNavidadland&8]: &aFlyPlus is enabled in this world!'
+
+#Enable fly upon player's join on server, for players that have fly.join permission.
+#If true = whoever has permission fly.join will have fly ON once they join the server.
+#If false = no-one will have fly ON once they join despite if they have fly.join permission or not.
+Fly-On-Join: true
+#Keep flight status upon player's quit. (i.e if player logs off with flight off, they'll join with flight off
+#despite having Fly-On-Join option true!
+Keep-Fly-Status-On-Quit: true
+#Enable fly when players join an Enabled-World automatically.
+#If this option is false, it'll check for the players' flight status from previous world (if it was an Enabled-World)
+Fly-Automatically-In-Enabled-Worlds: true
+
+#List of worlds that the plugin is enabled on.
+Enabled-Worlds:
+- lobby

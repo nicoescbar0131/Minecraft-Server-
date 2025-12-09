@@ -1,0 +1,21 @@
+[2025/12/04 05:02:56]: §9          __             _       
+[2025/12/04 05:02:56]: §9  _ __   / /  ___   __ _(_)_ __  
+[2025/12/04 05:02:56]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2025/12/04 05:02:56]: §9 | | | / /__| (_) | (_| | | | | |
+[2025/12/04 05:02:56]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2025/12/04 05:02:56]: §9                  |___/            
+[2025/12/04 05:02:56]: §9 By: www.nickuc.com - V 10.4.23 DEVELOPMENT
+[2025/12/04 05:02:56]: §9 
+[2025/12/04 05:02:56]: §3[nLogin] [DEBUG] All settings were loaded in 142 ms.
+[2025/12/04 05:02:56]: §3[nLogin] [DEBUG] Loading the messages_es.yml message file...
+[2025/12/04 05:02:56]: §3[nLogin] [DEBUG] All plugin messages were loaded in 104 ms (languageByClient=false).
+[2025/12/04 05:02:56]: §3[nLogin] [DEBUG] All proxy settings were loaded in 2 ms.
+[2025/12/04 05:02:56]: §3[nLogin] [DEBUG] Loading database...
+[2025/12/04 05:02:57]: §3[nLogin] [DEBUG] Starting logger filter...
+[2025/12/04 05:04:32]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Nico01310', `unique_id` = 963a06f9eeec363ca3007bc90771feef,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$GQnkc5nLFXdZIMqU.ilSEe/GoThIrlleCAi.44Qfn.LeV3pGTndfa', `last_ip` = '127.46.99.27', `creation_date` = 2025-12-02 21:01:38.863, `last_seen` = 2025-12-04 05:04:32.879, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2025/12/04 05:04:32]: [nLogin] The user Nico01310 has successfully logged in.
+[2025/12/04 05:51:21]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Nico0131', `unique_id` = 6f88481a1c01397f997972da3a97c1cc,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$eI.VopAx1B3RiwKwpD9h2Oe9MOIFKwRNzrAolwW04anDUjS/aNXXK', `last_ip` = '127.46.99.27', `creation_date` = 2025-12-02 21:45:34.311, `last_seen` = 2025-12-04 05:51:21.061, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 3" (applied to [last_ip, last_seen, settings] columns)
+[2025/12/04 05:51:21]: [nLogin] The user Nico0131 has successfully logged in.
+[2025/12/04 05:53:41]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Nico0131', `unique_id` = 6f88481a1c01397f997972da3a97c1cc,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$eI.VopAx1B3RiwKwpD9h2Oe9MOIFKwRNzrAolwW04anDUjS/aNXXK', `last_ip` = '127.46.99.27', `creation_date` = 2025-12-02 21:45:34.311, `last_seen` = 2025-12-04 05:53:41.567, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 3" (applied to [last_seen, settings] columns)
+[2025/12/04 05:59:37]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Nico01310', `unique_id` = 963a06f9eeec363ca3007bc90771feef,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$GQnkc5nLFXdZIMqU.ilSEe/GoThIrlleCAi.44Qfn.LeV3pGTndfa', `last_ip` = '127.46.99.27', `creation_date` = 2025-12-02 21:01:38.863, `last_seen` = 2025-12-04 05:59:37.041, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2025/12/04 05:59:43]: [nLogin] Successful plugin core shutdown (took 0.00s)

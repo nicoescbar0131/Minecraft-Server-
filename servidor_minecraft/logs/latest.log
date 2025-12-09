@@ -1,0 +1,552 @@
+[16:29:21] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-Ubuntu-124.04; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[16:29:21] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[16:29:22] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[16:29:28] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/bedwars-plugin-25.3-SNAPSHOT.jar'...
+[16:29:31] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/bedwars-plugin-25.3-SNAPSHOT.jar' in 3015ms.
+[16:29:33] [ServerMain/INFO]: [PluginInitializerManager] Initialized 27 plugins
+[16:29:33] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
+ - EconomyShopGUI (6.16.1), FancyNpcs (2.8.1)
+[16:29:33] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (25):
+ - 1vs1 (1.7.1 #221), AdvancedTeleport (6.1.3), BedWars1058 (25.3-SNAPSHOT), ConditionalEvents (4.72.1), DeluxeMenus (1.14.1-Release), EasyCommandBlocker (1.15.1), FastAsyncWorldEdit (2.14.3-SNAPSHOT-1229+69930e3), FlyPlus (3.4.3), LuckPerms (5.5.17), MiniMOTD (2.1.2), Multiverse-Core (5.3.4), Multiverse-Inventories (5.2.1), PhoenixCratesLite (4.3.4), PlaceholderAPI (2.11.7), ProtocolLib (5.4.0), SkinsRestorer (15.9.0), TAB (5.3.2), Vault (1.7.3-b131), VoidGen (2.2.1), VoidTeleport (2.4.5), WorldGuard (7.0.12+829a4a4), WorldGuardEvents (1.18.1), XConomy (2.26.3), nLogin (10.4.22), zMenu (1.1.0.6)
+[16:29:40] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:29:44] [ServerMain/INFO]: Loaded 1290 recipes
+[16:29:44] [ServerMain/INFO]: Loaded 1399 advancements
+[16:29:45] [Server thread/INFO]: Starting minecraft server version 1.21
+[16:29:45] [Server thread/INFO]: Loading properties
+[16:29:45] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[16:29:46] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[16:29:46] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:29:46] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:29:46] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[16:29:47] [Server thread/INFO]: Default game type: SURVIVAL
+[16:29:47] [Server thread/INFO]: Generating keypair
+[16:29:47] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:29:47] [Server thread/INFO]: Using epoll channel type
+[16:29:47] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[16:29:47] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[16:29:49] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loading 1 libraries... please wait
+[16:29:49] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library /workspaces/Minecraft-Server-/servidor_minecraft/libraries/redis/clients/jedis/4.3.1/jedis-4.3.1.jar
+[16:29:49] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library /workspaces/Minecraft-Server-/servidor_minecraft/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+[16:29:49] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library /workspaces/Minecraft-Server-/servidor_minecraft/libraries/org/apache/commons/commons-pool2/2.11.1/commons-pool2-2.11.1.jar
+[16:29:49] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library /workspaces/Minecraft-Server-/servidor_minecraft/libraries/org/json/json/20220320/json-20220320.jar
+[16:29:49] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library /workspaces/Minecraft-Server-/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar
+[16:29:49] [Server thread/INFO]: [SpigotLibraryLoader] [zMenu] Loading 1 libraries... please wait
+[16:29:49] [Server thread/INFO]: [SpigotLibraryLoader] [zMenu] Loaded library /workspaces/Minecraft-Server-/servidor_minecraft/libraries/org/mariadb/jdbc/mariadb-java-client/3.5.6/mariadb-java-client-3.5.6.jar
+[16:29:50] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[16:30:02] [Server thread/WARN]: Legacy plugin 1vs1 v1.7.1 #221 does not specify an api-version.
+[16:30:04] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.17
+[16:30:05] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[16:30:05] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[16:30:05] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.14.3-SNAPSHOT-1229+69930e3
+[16:30:10] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@155c1ad6]
+[16:30:10] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.7
+[16:30:10] [Server thread/INFO]: [VoidGen] Loading server plugin VoidGen v2.2.1
+[16:30:10] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.12+829a4a4
+[16:30:10] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.3.4
+[16:30:10] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[16:30:11] [Server thread/INFO]: [WorldGuardEvents] Loading server plugin WorldGuardEvents v1.18.1
+[16:30:11] [Server thread/INFO]: [AdvancedTeleport] Loading server plugin AdvancedTeleport v6.1.3
+[16:30:11] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for gson
+[16:30:11] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for gson
+[16:30:11] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for jar-relocator
+[16:30:11] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for jar-relocator
+[16:30:11] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for asm
+[16:30:11] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for asm
+[16:30:11] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for asm-commons
+[16:30:11] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for asm-commons
+[16:30:11] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for gson
+[16:30:11] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for gson
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-api
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-api
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-key
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-key
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for examination-api
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for examination-api
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for examination-string
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for examination-string
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-text-minimessage
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-text-minimessage
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-nbt
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-nbt
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-text-serializer-plain
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-text-serializer-plain
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-platform-bukkit
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-platform-bukkit
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-text-serializer-gson-legacy-impl
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-text-serializer-gson-legacy-impl
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-text-serializer-gson
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-text-serializer-gson
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-text-serializer-json
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-text-serializer-json
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for option
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for option
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-platform-facet
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-platform-facet
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-platform-api
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-platform-api
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-platform-viaversion
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-platform-viaversion
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-text-serializer-bungeecord
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-text-serializer-bungeecord
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-text-serializer-legacy
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-text-serializer-legacy
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for bstats-bukkit
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for bstats-bukkit
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for bstats-base
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for bstats-base
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for paperlib
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for paperlib
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for ConfigurationMaster-API
+[16:30:12] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for ConfigurationMaster-API
+[16:30:12] [Server thread/INFO]: [Multiverse-Inventories] Loading server plugin Multiverse-Inventories v5.2.1
+[16:30:12] [Server thread/INFO]: [DeluxeMenus] Loading server plugin DeluxeMenus v1.14.1-Release
+[16:30:12] [Server thread/WARN]: [DeluxeMenus] Could not setup a NMS hook for your server version! The following Item options will not work: nbt_int, nbt_ints, nbt_string and nbt_strings.
+[16:30:12] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.3.2
+[16:30:12] [Server thread/INFO]: [BedWars1058] Loading server plugin BedWars1058 v25.3-SNAPSHOT
+[16:30:12] [Server thread/INFO]: [BedWars1058] Loading support for Paper 1.21.1
+[16:30:12] [Server thread/INFO]: [BedWars1058] Creating plugins/BedWars1058/Languages/messages_en.yml
+[16:30:12] [Server thread/INFO]: [BedWars1058] Creating plugins/BedWars1058/Languages/messages_ro.yml
+[16:30:13] [Server thread/INFO]: [BedWars1058] Creating plugins/BedWars1058/Languages/messages_it.yml
+[16:30:13] [Server thread/INFO]: [BedWars1058] Creating plugins/BedWars1058/Languages/messages_pl.yml
+[16:30:13] [Server thread/INFO]: [BedWars1058] Creating plugins/BedWars1058/Languages/messages_es.yml
+[16:30:13] [Server thread/INFO]: [BedWars1058] Creating plugins/BedWars1058/Languages/messages_ru.yml
+[16:30:13] [Server thread/INFO]: [BedWars1058] Creating plugins/BedWars1058/Languages/messages_bd.yml
+[16:30:13] [Server thread/INFO]: [BedWars1058] Creating plugins/BedWars1058/Languages/messages_fa.yml
+[16:30:13] [Server thread/INFO]: [BedWars1058] Creating plugins/BedWars1058/Languages/messages_hi.yml
+[16:30:13] [Server thread/INFO]: [BedWars1058] Creating plugins/BedWars1058/Languages/messages_id.yml
+[16:30:13] [Server thread/INFO]: [BedWars1058] Creating plugins/BedWars1058/Languages/messages_pt.yml
+[16:30:13] [Server thread/INFO]: [BedWars1058] Creating plugins/BedWars1058/Languages/messages_zh_cn.yml
+[16:30:13] [Server thread/INFO]: [BedWars1058] Creating plugins/BedWars1058/Languages/messages_tr.yml
+[16:30:13] [Server thread/INFO]: [BedWars1058] Creating plugins/BedWars1058/config.yml
+[16:30:14] [Server thread/INFO]: [BedWars1058] Creating plugins/BedWars1058/generators.yml
+[16:30:14] [Server thread/INFO]: [BedWars1058] Creating plugins/BedWars1058/signs.yml
+[16:30:14] [Server thread/INFO]: [ConditionalEvents] Loading server plugin ConditionalEvents v4.72.1
+[16:30:14] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.9.0
+[16:30:14] [Server thread/INFO]: [EasyCommandBlocker] Loading server plugin EasyCommandBlocker v1.15.1
+[16:30:14] [Server thread/INFO]: [VoidTeleport] Loading server plugin VoidTeleport v2.4.5
+[16:30:14] [Server thread/INFO]: [FancyNpcs] Loading server plugin FancyNpcs v2.8.1
+[16:30:14] [Server thread/INFO]: [XConomy] Loading server plugin XConomy v2.26.3
+[16:30:14] [Server thread/INFO]: [zMenu] Loading server plugin zMenu v1.1.0.6
+[16:30:14] [Server thread/INFO]: [1vs1] Loading server plugin 1vs1 v1.7.1 #221
+[16:30:14] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v10.4.22
+[16:30:15] [Server thread/INFO]: [FlyPlus] Loading server plugin FlyPlus v3.4.3
+[16:30:15] [Server thread/INFO]: [MiniMOTD] Loading server plugin MiniMOTD v2.1.2
+[16:30:15] [Server thread/INFO]: [PhoenixCratesLite] Loading server plugin PhoenixCratesLite v4.3.4
+[16:30:15] [Server thread/INFO]: [EconomyShopGUI] Loading server plugin EconomyShopGUI v6.16.1
+[16:30:15] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:30:15] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.17
+[16:30:16] [Server thread/INFO]:         __    
+[16:30:16] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.17
+[16:30:16] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[16:30:16] [Server thread/INFO]: 
+[16:30:16] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[16:30:18] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[16:30:18] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[16:30:18] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3272ms)
+[16:30:18] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[16:30:19] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[16:30:19] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[16:30:19] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[16:30:19] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.14.3-SNAPSHOT-1229+69930e3
+[16:30:19] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[16:30:19] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[16:30:19] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[16:30:20] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[16:30:21] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_R1.PaperweightFaweAdapter as the Bukkit adapter
+[16:30:22] [Server thread/INFO]: [VoidGen] Enabling VoidGen v2.2.1
+[16:30:22] [Server thread/INFO]: [VoidGen] Using VoidChunkGen: VERSION_UNKNOWN
+[16:30:22] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[16:30:22] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.9.0
+[16:30:22] [Thread-14/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] An update for FastAsyncWorldEdit is available. You are 2 build(s) out of date.
+You are running build 1229, the latest version is build 1231.
+Update at https://ci.athion.net/job/FastAsyncWorldEdit
+[16:30:25] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
+[16:30:26] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[16:30:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.9.0]
+[16:30:26] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[16:30:26] [Server thread/INFO]: [XConomy] Enabling XConomy v2.26.3
+[16:30:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:30:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[16:30:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[16:30:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[16:30:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[16:30:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[16:30:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:30:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.9.0
+[16:30:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 1565b8f
+[16:30:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[16:30:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:30:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[16:30:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[16:30:26] [Server thread/INFO]: [XConomy] UUID-Mode: Default
+[16:30:26] [Server thread/INFO]: [XConomy] Language: ENGLISH
+[16:30:27] [Server thread/INFO]: [XConomy] Saving method - SQLite
+[16:30:27] [Server thread/INFO]: [XConomy] SQLite successfully connected
+[16:30:27] [Server thread/INFO]: [XConomy] XConomy successfully enabled
+[16:30:27] [Server thread/INFO]: [XConomy] Found PlaceholderAPI
+[16:30:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: xconomy [2.26.3]
+[16:30:27] [Server thread/INFO]: [XConomy] PlaceholderAPI successfully hooked
+[16:30:27] [Server thread/INFO]: [XConomy] ===== YiC =====
+[16:30:27] [Server thread/INFO]: [nLogin] Enabling nLogin v10.4.22
+[16:30:27] [Folia Async Scheduler Thread #3/INFO]: [XConomy] Is the latest version
+[16:30:27] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.48s)
+[16:30:27] [Server thread/INFO]:           __             _       
+[16:30:27] [Server thread/INFO]:   _ __   / /  ___   __ _(_)_ __  
+[16:30:27] [Server thread/INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[16:30:27] [Server thread/INFO]:  | | | / /__| (_) | (_| | | | | |
+[16:30:27] [Server thread/INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[16:30:27] [Server thread/INFO]:                   |___/            
+[16:30:27] [Server thread/INFO]:  By: www.nickuc.com - V 10.4.23 DEVELOPMENT
+[16:30:27] [Server thread/INFO]:  
+[16:30:31] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:30:31] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:30:31] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:30:31] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:30:31] [Server thread/INFO]: Preparing level "world"
+[16:30:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:30:33] [Server thread/INFO]: Time elapsed: 1791 ms
+[16:30:33] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:30:34] [Server thread/INFO]: Time elapsed: 477 ms
+[16:30:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:30:34] [Server thread/INFO]: Time elapsed: 260 ms
+[16:30:34] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.7
+[16:30:35] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[16:30:35] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.12+829a4a4
+[16:30:35] [Server thread/INFO]: No TreeType mapping for TreeGenerator.TreeType.PALE_OAK
+[16:30:35] [Server thread/INFO]: The above message is displayed because your FAWE version is newer than 1.21-130-b1b5d4c (MC: 1.21) and contains features of future minecraft versions which do not exist in 1.21-130-b1b5d4c (MC: 1.21) hence the tree type PALE_OAK is not available. This is not an error. This version of FAWE will work on your version of  Minecraft. This is an informative message only.
+[16:30:35] [Server thread/INFO]: No TreeType mapping for TreeGenerator.TreeType.PALE_OAK_CREAKING
+[16:30:35] [Server thread/INFO]: The above message is displayed because your FAWE version is newer than 1.21-130-b1b5d4c (MC: 1.21) and contains features of future minecraft versions which do not exist in 1.21-130-b1b5d4c (MC: 1.21) hence the tree type PALE_OAK_CREAKING is not available. This is not an error. This version of FAWE will work on your version of  Minecraft. This is an informative message only.
+[16:30:35] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[16:30:35] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[16:30:35] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[16:30:35] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[16:30:35] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[16:30:35] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[16:30:35] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[16:30:35] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[16:30:35] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[16:30:35] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[16:30:35] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[16:30:35] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[16:30:35] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[16:30:35] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[16:30:35] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[16:30:35] [Server thread/INFO]: [WorldGuard] Loading region data...
+[16:30:36] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.3.4
+[16:30:38] [Server thread/INFO]: [VoidGen] Generator settings have not been set. Using default values:
+[16:30:38] [Server thread/INFO]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
+[16:30:39] [Server thread/INFO]: Preparing start region for dimension minecraft:lobby
+[16:30:39] [Server thread/INFO]: Time elapsed: 608 ms
+[16:30:39] [Server thread/INFO]: [WorldGuard] (lobby) TNT ignition is PERMITTED.
+[16:30:39] [Server thread/INFO]: [WorldGuard] (lobby) Lighters are PERMITTED.
+[16:30:39] [Server thread/INFO]: [WorldGuard] (lobby) Lava fire is PERMITTED.
+[16:30:39] [Server thread/INFO]: [WorldGuard] (lobby) Fire spread is UNRESTRICTED.
+[16:30:39] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'lobby'
+[16:30:40] [Server thread/INFO]: Preparing start region for dimension minecraft:lobby2
+[16:30:40] [Server thread/INFO]: Time elapsed: 268 ms
+[16:30:40] [Server thread/INFO]: [WorldGuard] (lobby2) TNT ignition is PERMITTED.
+[16:30:40] [Server thread/INFO]: [WorldGuard] (lobby2) Lighters are PERMITTED.
+[16:30:40] [Server thread/INFO]: [WorldGuard] (lobby2) Lava fire is PERMITTED.
+[16:30:40] [Server thread/INFO]: [WorldGuard] (lobby2) Fire spread is UNRESTRICTED.
+[16:30:40] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'lobby2'
+[16:30:40] [Server thread/ERROR]: [Multiverse-Core] Failed to load world Arena1: Failure{reason=WORLD_FOLDER_INVALID}
+[16:30:40] [Server thread/INFO]: Preparing start region for dimension minecraft:arena
+[16:30:41] [Server thread/INFO]: Time elapsed: 603 ms
+[16:30:41] [Server thread/INFO]: [WorldGuard] (Arena) TNT ignition is PERMITTED.
+[16:30:41] [Server thread/INFO]: [WorldGuard] (Arena) Lighters are PERMITTED.
+[16:30:41] [Server thread/INFO]: [WorldGuard] (Arena) Lava fire is PERMITTED.
+[16:30:41] [Server thread/INFO]: [WorldGuard] (Arena) Fire spread is UNRESTRICTED.
+[16:30:41] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Arena'
+[16:30:41] [Server thread/INFO]: Preparing start region for dimension minecraft:naciones
+[16:30:41] [Server thread/INFO]: Time elapsed: 288 ms
+[16:30:41] [Server thread/INFO]: [WorldGuard] (naciones) TNT ignition is PERMITTED.
+[16:30:41] [Server thread/INFO]: [WorldGuard] (naciones) Lighters are PERMITTED.
+[16:30:41] [Server thread/INFO]: [WorldGuard] (naciones) Lava fire is PERMITTED.
+[16:30:41] [Server thread/INFO]: [WorldGuard] (naciones) Fire spread is UNRESTRICTED.
+[16:30:41] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'naciones'
+[16:30:42] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-core [5.3.4]
+[16:30:42] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[16:30:42] [Server thread/INFO]: [Multiverse-Core] Version 5.3.4 (API v5.3) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[16:30:42] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[16:30:42] [Server thread/INFO]: [WorldGuardEvents] Enabling WorldGuardEvents v1.18.1
+[16:30:42] [Server thread/INFO]: [WorldGuard] Registering session handler net.raidstone.wgevents.Entry
+[16:30:42] [Server thread/INFO]: [AdvancedTeleport] Enabling AdvancedTeleport v6.1.3
+[16:30:43] [Server thread/INFO]: [AdvancedTeleport] Performing server version check.
+[16:30:43] [Server thread/INFO]: [AdvancedTeleport] Detected major version: 21
+[16:30:43] [Server thread/INFO]: [AdvancedTeleport] Advanced Teleport is now enabling...
+[16:30:43] [Server thread/INFO]: [AdvancedTeleport] Setting up permissions integration with Vault.
+[16:30:43] [Server thread/INFO]: [AdvancedTeleport] LuckPerms hooked into successfully.
+[16:30:43] [Server thread/INFO]: [AdvancedTeleport] Loading MainConfig.
+[16:30:43] [Server thread/INFO]: [AdvancedTeleport] Registered the image warp_default!
+[16:30:43] [Server thread/INFO]: [AdvancedTeleport] Registered the image home_default!
+[16:30:43] [Server thread/INFO]: [AdvancedTeleport] Registered the image spawn_default!
+[16:30:44] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v5.2.1
+[16:30:45] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-inventories [5.2.1]
+[16:30:45] [Server thread/INFO]: [Multiverse-Inventories] Loading player names map...
+[16:30:45] [Server thread/INFO]: [Multiverse-Inventories] Version 5.2.1 (API v5.2) Enabled - By dumptruckman and benwoo1110
+[16:30:45] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.14.1-Release
+[16:30:45] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into PlaceholderAPI!
+[16:30:46] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into Vault!
+[16:30:46] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: teststone in menu: basics_menu. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[16:30:46] [Server thread/INFO]: [DeluxeMenus] 3 GUI menus loaded!
+[16:30:47] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: deluxemenus [1.14.1-Release]
+[16:30:47] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
+[16:30:47] [Server thread/INFO]: [TAB] Enabling TAB v5.3.2
+[16:30:49] [Server thread/INFO]: [TAB] Enabled in 2016ms
+[16:30:49] [Server thread/INFO]: [BedWars1058] Enabling BedWars1058 v25.3-SNAPSHOT
+[16:30:50] [Server thread/INFO]: [BedWars1058] Using internal world restore system.
+[16:30:50] [Server thread/INFO]: Registering /party command..
+[16:30:50] [Server thread/WARN]: [BedWars1058] Lobby location is not set!
+[16:30:51] [Server thread/INFO]: [BedWars1058] Hooked into PlaceholderAPI support!
+[16:30:51] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: bw1058 [25.3-SNAPSHOT]
+[16:30:51] [Server thread/INFO]: [BedWars1058] Creating plugins/BedWars1058/sounds.yml
+[16:30:51] [Server thread/INFO]: [BedWars1058] Creating plugins/BedWars1058/shop.yml
+[16:30:52] [Server thread/INFO]: [BedWars1058] Creating plugins/BedWars1058/levels.yml
+[16:30:52] [Server thread/INFO]: [BedWars1058] Creating plugins/BedWars1058/rewards.yml
+[16:30:52] [Server thread/INFO]: [BedWars1058] Creating plugins/BedWars1058/upgrades2.yml
+[16:30:52] [Server thread/WARN]: Scoreboard tab header-footer refresh interval is set to: 10
+[16:30:52] [Server thread/WARN]: It is not recommended to use a value under 20 ticks.
+[16:30:52] [Server thread/WARN]: If you expect performance issues please increase its timer.
+[16:30:52] [Server thread/INFO]: [BedWars1058] Initializing SidebarLib by andrei1058
+[16:30:52] [Server thread/INFO]: [ConditionalEvents] Enabling ConditionalEvents v4.72.1
+[16:30:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: conditionalevents [4.72.1]
+[16:30:53] [Server thread/INFO]: [ConditionalEvents] Has been enabled! Version: 4.72.1
+[16:30:53] [Server thread/INFO]: [ConditionalEvents] Thanks for using my plugin!   ~Ajneb97
+[16:30:53] [Server thread/INFO]: There is a new version available. (4.72.2)
+[16:30:53] [Server thread/INFO]: You can download it at: https://modrinth.com/plugin/conditionalevents
+[16:30:53] [Server thread/INFO]: [EasyCommandBlocker] Enabling EasyCommandBlocker v1.15.1
+[16:30:54] [Server thread/INFO]: [EasyCommandBlocker] Has been enabled! Version: 1.15.1
+[16:30:54] [Server thread/INFO]: [EasyCommandBlocker] Thanks for using my plugin!   ~Ajneb97
+[16:30:54] [Server thread/INFO]: [VoidTeleport] Enabling VoidTeleport v2.4.5
+[16:30:54] [Server thread/INFO]: 
+
+                ===================================================
+                                    VoidTeleport
+                ===================================================
+
+                              Current version: 2.4.5
+                        You are running the latest version!
+
+                ===================================================
+
+[16:30:54] [Server thread/INFO]: [VoidTeleport] Developed by EndlessGames.
+[16:30:54] [Server thread/INFO]: [FancyNpcs] Enabling FancyNpcs v2.8.1
+[16:30:54] [Server thread/WARN]: [org.mineskin.MineSkinClient] Creating MineSkinClient without API key
+[16:30:55] [Server thread/INFO]: [zMenu] Enabling zMenu v1.1.0.6
+[16:30:55] [FancyLogger/INFO]: [FancyNpcs] (Server thread) INFO: FancyNpcs (2.8.1) has been enabled.
+[16:30:55] [Server thread/INFO]: [zMenu v1.1.0.6] === ENABLE START ===
+[16:30:55] [Server thread/INFO]: [zMenu v1.1.0.6] Plugin Version V1.1.0.6
+[16:30:55] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: zmenu [1.1.0.6]
+[16:30:55] [Server thread/INFO]: [zMenu] The database connection is valid ! (SQLITE)
+[16:30:55] [Server thread/INFO]: [zMenu] Use ComponentMeta
+[16:30:56] [Server thread/INFO]: [zMenu v1.1.0.6] plugins/zMenu/inventories/Warps.yml loaded successfully !
+[16:30:56] [Server thread/INFO]: [zMenu v1.1.0.6] plugins/zMenu/website/inventories.yml loaded successfully !
+[16:30:56] [Server thread/INFO]: [zMenu v1.1.0.6] 
+[16:30:56] [Server thread/INFO]: [zMenu v1.1.0.6] You can support zMenu by upgrading your account here: https://minecraft-inventory-builder.com/account-upgrade
+[16:30:56] [Server thread/INFO]: [zMenu v1.1.0.6] zMenu’s site includes an inventory editor (under development), a marketplace (already available) is a forum (under development)
+[16:30:56] [Server thread/INFO]: [zMenu v1.1.0.6] 
+[16:30:56] [Server thread/INFO]: [zMenu v1.1.0.6] Loading 1 commands
+[16:30:56] [Server thread/INFO]: [zMenu v1.1.0.6] === ENABLE DONE (1148ms) ===
+[16:30:56] [Server thread/INFO]: [1vs1] Enabling 1vs1 v1.7.1 #221*
+[16:30:56] [Server thread/INFO]: [1vs1] Connecting to sqlite database...
+[16:30:56] [Server thread/INFO]: [1vs1] Connected!
+[16:30:56] [Server thread/INFO]: [1vs1] Connecting to database
+[16:30:56] [Server thread/INFO]: [1vs1] Connecting to sqlite database...
+[16:30:56] [Server thread/INFO]: [1vs1] Connected!
+[16:30:56] [Server thread/INFO]: [1vs1] 1vs1 enabled!
+[16:30:56] [Server thread/INFO]: [FlyPlus] Enabling FlyPlus v3.4.3
+[16:30:56] [Server thread/INFO]: [FlyPlus] Successfully hooked into LuckPerms!
+[16:30:56] [Server thread/INFO]: [FlyPlus] Enabled!
+[16:30:56] [Server thread/INFO]: [MiniMOTD] Enabling MiniMOTD v2.1.2
+[16:30:58] [Server thread/INFO]: [PhoenixCratesLite] Enabling PhoenixCratesLite v4.3.4
+[16:30:58] [Server thread/INFO]: Loading cross version adapter...
+[16:30:59] [Server thread/INFO]:   ____    ____                               
+[16:30:59] [Server thread/INFO]:  |  _ \  / ___|                              
+[16:30:59] [Server thread/INFO]:  | |_) || |       Phoenix Crates Lite v4.3.4      
+[16:30:59] [Server thread/INFO]:  |  __/ | |___    https://phoenixplugins.com/
+[16:30:59] [Server thread/INFO]:  |_|     \____|                             
+[16:30:59] [Server thread/INFO]:                                                  
+[16:30:59] [Server thread/INFO]: Loading settings...
+[16:30:59] [Server thread/INFO]: Loading file "config.yml".
+[16:30:59] [Server thread/INFO]: File "config.yml" is up to date. Importing configurations.
+[16:30:59] [Server thread/INFO]: Vault founded. Preparing hook...
+[16:31:00] [Server thread/INFO]: Checking for internal patchs...
+[16:31:00] [Server thread/INFO]: [PhoenixCratesLite] Current patch: #202509111232
+[16:31:00] [Server thread/INFO]: [PhoenixCratesLite] No patches to run.
+[16:31:00] [Server thread/INFO]: Placeholder API founded. Preparing placeholders...
+[16:31:00] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: phoenixcrates [1.0.0]
+[16:31:00] [Server thread/INFO]: Model Engine is not installed. If you want to support custom models in this plugin install it.
+[16:31:00] [Server thread/INFO]: -> (Meg 3) See more at: https://www.spigotmc.org/resources/conxeptworks-legacy-model-engine-1-16-5-1-20.79477/
+[16:31:00] [Server thread/INFO]: -> (Meg 4) See more at: https://mythiccraft.io/index.php?resources/20-off-model-engine%E2%80%94ultimate-entity-model-manager-1-19-4-1-20-1.1213/
+[16:31:00] [Server thread/INFO]: Loading components...
+[16:31:00] [Server thread/INFO]: Loading database...
+[16:31:00] [Server thread/WARN]: 21 [Server thread] INFO com.phoenixplugins.phoenixcrates.lib.hikari.HikariDataSource - CyberSQLitePool - Starting...
+[16:31:00] [Server thread/WARN]: 175 [Server thread] INFO com.phoenixplugins.phoenixcrates.lib.hikari.HikariDataSource - CyberSQLitePool - Start completed.
+[16:31:00] [Server thread/INFO]: Loading menus...
+[16:31:00] [Server thread/INFO]: Loading file "menus/default_rewards_preview.yml".
+[16:31:00] [Server thread/INFO]: File "menus/default_rewards_preview.yml" is up to date. Importing configurations.
+[16:31:00] [Server thread/INFO]: Loading file "menus/default_select_reward.yml".
+[16:31:00] [Server thread/INFO]: File "menus/default_select_reward.yml" is up to date. Importing configurations.
+[16:31:00] [Server thread/INFO]: Loading file "internal_storage.yml".
+[16:31:00] [Server thread/INFO]: File "internal_storage.yml" is up to date. Importing configurations.
+[16:31:00] [Server thread/INFO]: Loading players data...
+[16:31:01] [Server thread/INFO]: Loading keys...
+[16:31:01] [Server thread/INFO]: No resource with the name "key.yml" founded.
+[16:31:01] [Server thread/INFO]: Loading file "keys/example3.yml".
+[16:31:01] [Server thread/INFO]: File "keys/example3.yml" is up to date. Importing configurations.
+[16:31:01] [Server thread/INFO]: No resource with the name "key.yml" founded.
+[16:31:01] [Server thread/INFO]: Loading file "keys/example1.yml".
+[16:31:01] [Server thread/INFO]: File "keys/example1.yml" is up to date. Importing configurations.
+[16:31:01] [Server thread/INFO]: No resource with the name "key.yml" founded.
+[16:31:01] [Server thread/INFO]: Loading file "keys/example2.yml".
+[16:31:01] [Server thread/INFO]: File "keys/example2.yml" is up to date. Importing configurations.
+[16:31:01] [Server thread/INFO]: Loaded 3 keys.
+[16:31:01] [Server thread/INFO]: Loading crates...
+[16:31:01] [Server thread/INFO]: Loading file "locations.yml".
+[16:31:01] [Server thread/INFO]: File "locations.yml" is up to date. Importing configurations.
+[16:31:01] [Server thread/INFO]: Loading file "crates/example3.yml".
+[16:31:01] [Server thread/INFO]: File "crates/example3.yml" is up to date. Importing configurations.
+[16:31:01] [Server thread/INFO]: Loading file "crates/example1.yml".
+[16:31:01] [Server thread/INFO]: File "crates/example1.yml" is up to date. Importing configurations.
+[16:31:01] [Server thread/INFO]: Loading file "crates/example2.yml".
+[16:31:01] [Server thread/INFO]: File "crates/example2.yml" is up to date. Importing configurations.
+[16:31:01] [Server thread/INFO]: Loaded 3 types.
+[16:31:01] [Server thread/INFO]: Loaded 0 crates.
+[16:31:01] [Server thread/INFO]: Loading commands...
+[16:31:01] [Server thread/INFO]: 
+[16:31:01] [Server thread/INFO]: Plugin loaded successfully!
+[16:31:01] [Server thread/INFO]: [Any questions or problems that may arise, contact us through
+[16:31:01] [Server thread/INFO]: the website or our discord: https://phoenixplugins.com/discord]
+[16:31:01] [Server thread/INFO]: 
+[16:31:01] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.16.1
+[16:31:01] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initializing paper meta...
+[16:31:02] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-es.yml as language file
+[16:31:02] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Carga completada 16 configuraciones de la sección de /secciones/
+[16:31:02] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completada la carga de la configuración de 16 tiendas desde /shops/
+[16:31:02] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Actualizando la configuración de la tienda...
+[16:31:02] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using XConomy as economy provider
+[16:31:02] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Se completó la carga de 1 proveedor(es) de economía para todas las 14 secciones de tiendas.
+[16:31:02] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Usando minecraft versión 1.21...
+[16:31:02] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Proveedor spawner establecido en AUTO en la configuración
+[16:31:02] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
+[16:31:02] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
+[16:31:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: esgui [1.1.0]
+[16:31:02] [Server thread/INFO]: [EconomyShopGUI] [INFO]: El modo de depuración está habilitado.
+[16:31:02] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Cargando todos los elementos...
+[16:31:03] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Iniciado - Tomó 1793ms para completar
+[16:31:04] [Server thread/INFO]: [spark] Starting background profiler...
+[16:31:05] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[16:31:05] [Server thread/INFO]: Done preparing level "world" (34.624s)
+[16:31:05] [Server thread/INFO]: Running delayed init tasks
+[16:31:05] [Craft Scheduler Thread - 15 - Vault/INFO]: [Vault] Checking for Updates ... 
+[16:31:05] [Craft Scheduler Thread - 12 - AdvancedTeleport/INFO]: [AdvancedTeleport] Preparing random teleportation locations. If your server performance or memory suffers, please set `use-rapid-response` to false in the config.yml file.
+[16:31:05] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
+[16:31:05] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
+[16:31:05] [Server thread/INFO]: [BedWars1058] Hooked into vault chat support!
+[16:31:06] [Server thread/INFO]: [BedWars1058] Hooked into vault economy support!
+[16:31:06] [Server thread/INFO]: Done (106.097s)! For help, type "help"
+[16:31:06] [Server thread/INFO]: Timings Reset
+[16:31:06] [Craft Scheduler Thread - 15 - Vault/INFO]: [Vault] No new version available
+[16:31:06] [Craft Scheduler Thread - 10 - 1vs1/INFO]: [1vs1] ***** 1vs1 Version Checker ***** 
+[16:31:06] [Craft Scheduler Thread - 10 - 1vs1/INFO]: [1vs1] Stable Build: #221
+[16:31:06] [Craft Scheduler Thread - 10 - 1vs1/INFO]: [1vs1] Current Build: #221
+[16:31:06] [Craft Scheduler Thread - 10 - 1vs1/INFO]: [1vs1] No new version available
+[16:31:06] [Craft Scheduler Thread - 10 - 1vs1/INFO]: [1vs1] *********************************
+[16:31:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.3]
+[16:31:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.2]
+[16:31:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[16:31:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[16:31:06] [Server thread/INFO]: 4 placeholder hook(s) registered!
+[16:31:06] [Craft Scheduler Thread - 12 - AdvancedTeleport/INFO]: [AdvancedTeleport] Plugin is up to date!
+[16:31:06] [Craft Scheduler Thread - 7 - MiniMOTD/INFO]: [MiniMOTD] There is an update available for MiniMOTD!
+[16:31:06] [Craft Scheduler Thread - 7 - MiniMOTD/INFO]: [MiniMOTD] This server is running version v2.1.2, which is 8 versions outdated.
+[16:31:06] [Craft Scheduler Thread - 7 - MiniMOTD/INFO]: [MiniMOTD] Download the latest version, v2.2.1 from GitHub at the link below:
+[16:31:06] [Craft Scheduler Thread - 7 - MiniMOTD/INFO]: [MiniMOTD] https://github.com/jpenilla/MiniMOTD/releases/tag/v2.2.1
+[16:31:06] [Craft Scheduler Thread - 6 - zMenu/INFO]: [zMenu v1.1.0.6] No update available.
+[16:31:06] [Server thread/INFO]: [BedWars1058] Loading internal Party system. /party
+[16:31:10] [Server thread/INFO]: [BedWars1058] This server is running in MULTIARENA with auto-scale false
+[16:32:04] [Server thread/INFO]: Server Plugins (27):
+[16:32:04] [Server thread/INFO]: Paper Plugins:
+[16:32:04] [Server thread/INFO]:  - EconomyShopGUI, FancyNpcs
+[16:32:04] [Server thread/INFO]: Bukkit Plugins:
+[16:32:04] [Server thread/INFO]:  - *1vs1, AdvancedTeleport, BedWars1058, ConditionalEvents, DeluxeMenus, EasyCommandBlocker, FastAsyncWorldEdit, FlyPlus, LuckPerms, MiniMOTD
+[16:32:04] [Server thread/INFO]:  Multiverse-Core, Multiverse-Inventories, nLogin, PhoenixCratesLite, PlaceholderAPI, ProtocolLib, SkinsRestorer, TAB, Vault, VoidGen
+[16:32:04] [Server thread/INFO]:  VoidTeleport, WorldGuard, WorldGuardEvents, XConomy, zMenu
+[16:34:07] [User Authenticator #0/INFO]: UUID of player luciana01316 is f2a5f8fd-1194-36d4-aad8-1c7ac53531d2
+[16:34:09] [Server thread/INFO]: luciana01316[/127.46.99.27:58041] logged in with entity id 38 at ([lobby]0.43807001938585977, 0.0, 0.28147583759866857)
+[16:34:29] [Server thread/INFO]: luciana01316 lost connection: Disconnected
+[16:35:19] [User Authenticator #1/INFO]: UUID of player Nico01310 is 963a06f9-eeec-363c-a300-7bc90771feef
+[16:35:20] [Server thread/INFO]: Nico01310[/127.46.99.27:36505] logged in with entity id 41 at ([lobby]0.43807001938585977, 0.0, 0.28147583759866857)
+[16:35:32] [Folia Async Scheduler Thread #2/INFO]: [nLogin] The user Nico01310 has successfully logged in.
+[16:36:23] [Server thread/INFO]: Nico01310 issued server command: /bw setLobby
+[16:36:26] [Server thread/INFO]: Nico01310 issued server command: /bw
+[16:36:56] [Server thread/INFO]: Nico01310 issued server command: /kill
+[16:36:56] [Server thread/INFO]: [Nico01310: Killed Nico01310]
+[16:37:14] [Server thread/INFO]: Nico01310 issued server command: /mvtp lobby
+[16:37:20] [Server thread/INFO]: Nico01310 issued server command: /mvtp lobby2
+[16:37:36] [Server thread/INFO]: Nico01310 issued server command: /gamemode spectator
+[16:37:36] [Server thread/INFO]: [Nico01310: Set own game mode to Spectator Mode]
+[16:37:45] [Server thread/INFO]: Nico01310 issued server command: /gamemode survival
+[16:37:45] [Server thread/INFO]: [Nico01310: Set own game mode to Survival Mode]
+[16:38:02] [Server thread/INFO]: Nico01310 issued server command: /bw setupArena speedway
+[16:38:04] [Server thread/INFO]: [BedWars1058] Creating plugins/BedWars1058/Arenas/speedway.yml
+[16:38:04] [Server thread/INFO]: Preparing start region for dimension minecraft:speedway
+[16:38:08] [Server thread/INFO]: Time elapsed: 3257 ms
+[16:38:08] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[16:38:08] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[16:38:08] [Server thread/INFO]: [WorldGuard] (speedway) TNT ignition is PERMITTED.
+[16:38:08] [Server thread/INFO]: [WorldGuard] (speedway) Lighters are PERMITTED.
+[16:38:08] [Server thread/INFO]: [WorldGuard] (speedway) Lava fire is PERMITTED.
+[16:38:08] [Server thread/INFO]: [WorldGuard] (speedway) Fire spread is UNRESTRICTED.
+[16:38:08] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'speedway'
+[16:38:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3341ms or 66 ticks behind
+[16:39:32] [Server thread/INFO]: Nico01310 issued server command: /bw setWaitingSpawn
+[16:40:26] [Server thread/INFO]: Nico01310 issued server command: /bw autoCreateTeams
+[16:40:47] [Server thread/INFO]: Nico01310 issued server command: /bw autoCreateTeams
+[16:40:54] [Server thread/INFO]: Nico01310 issued server command: /bw autoCreateTeams
+[16:41:10] [Server thread/INFO]: Nico01310 issued server command: /bw autoCreateTeams
+[16:41:43] [Server thread/INFO]: Nico01310 issued server command: /bw waitingPos 1
+[16:41:56] [Server thread/INFO]: Nico01310 issued server command: /bw waitingPos 2
+[16:43:12] [Server thread/INFO]: Nico01310 issued server command: /bw setSpawn White
+[16:43:48] [Server thread/INFO]: Nico01310 issued server command: /bw addGenerator
+[16:44:10] [Server thread/INFO]: Nico01310 issued server command: /bw setShop
+[16:44:47] [Server thread/INFO]: Nico01310 issued server command: /bw setUpgrade
+[16:45:37] [Server thread/INFO]: Nico01310 issued server command: /bw setSpawn Pink
+[16:45:47] [Server thread/INFO]: Nico01310 issued server command: /bw addGenerator
+[16:46:08] [Server thread/INFO]: Nico01310 issued server command: /bw setShop
+[16:46:21] [Server thread/INFO]: Nico01310 issued server command: /bw setUpgrade
+[16:47:15] [Server thread/INFO]: Nico01310 issued server command: /bw setSpawn Gray
+[16:47:22] [Server thread/INFO]: Nico01310 issued server command: /bw setShop
+[16:47:37] [Server thread/INFO]: Nico01310 issued server command: /bw setUpgrade
+[16:48:04] [Server thread/INFO]: Nico01310 issued server command: /bw setSpawn Red
+[16:48:21] [Server thread/INFO]: Nico01310 issued server command: /bw addGenerator
+[16:48:33] [Server thread/INFO]: Nico01310 issued server command: /bw addGenerator
+[16:48:41] [Server thread/INFO]: Nico01310 issued server command: /bw setShop
+[16:48:50] [Server thread/INFO]: Nico01310 issued server command: /bw setUpgrade
+[16:49:20] [Server thread/INFO]: Nico01310 issued server command: /bw setSpawn Blue
+[16:49:28] [Server thread/INFO]: Nico01310 issued server command: /bw setShop
+[16:49:36] [Server thread/INFO]: Nico01310 issued server command: /bw setUpgrade
+[16:49:43] [Server thread/INFO]: Nico01310 issued server command: /bw addGenerator
+[16:49:52] [Server thread/INFO]: Nico01310 issued server command: /time set day
+[16:49:52] [Server thread/INFO]: [Nico01310: Set the time to 1000]
+[16:50:18] [Server thread/INFO]: Nico01310 issued server command: /bw setSpawn Green
+[16:50:28] [Server thread/INFO]: Nico01310 issued server command: /bw addGenerator
+[16:50:35] [Server thread/INFO]: Nico01310 issued server command: /bw setShop
+[16:50:44] [Server thread/INFO]: Nico01310 issued server command: /bw setUpgrade
+[16:51:08] [Server thread/INFO]: Nico01310 issued server command: /bw setSpawn Yellow
+[16:51:15] [Server thread/INFO]: Nico01310 issued server command: /bw addGenerator
+[16:51:24] [Server thread/INFO]: Nico01310 issued server command: /bw setShop
+[16:51:37] [Server thread/INFO]: Nico01310 issued server command: /bw setUpgrade
+[16:52:00] [Server thread/INFO]: Nico01310 issued server command: /bw createTeam Aqua aqua
+[16:52:29] [Server thread/INFO]: Nico01310 issued server command: /bw removeTeam Dark_Gray
+[16:52:43] [Server thread/INFO]: Nico01310 issued server command: /bw setSpawn Aqua
+[16:52:49] [Server thread/INFO]: Nico01310 issued server command: /bw addGenerator
+[16:52:56] [Server thread/INFO]: Nico01310 issued server command: /bw setShop
+[16:53:04] [Server thread/INFO]: Nico01310 issued server command: /bw setUpgrade
+[16:53:17] [Server thread/INFO]: Nico01310 issued server command: /bw addGenerator
+[16:53:28] [Server thread/INFO]: Nico01310 issued server command: /bw addGenerator
+[16:53:39] [Server thread/INFO]: Nico01310 issued server command: /bw addGenerator
+[16:53:49] [Server thread/INFO]: Nico01310 issued server command: /bw addGenerator
+[16:53:56] [Server thread/INFO]: Nico01310 issued server command: /bw addGenerator
+[16:54:03] [Server thread/INFO]: Nico01310 issued server command: /bw addGenerator
+[16:54:11] [Server thread/INFO]: Nico01310 issued server command: /bw addGenerator

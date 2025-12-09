@@ -1,0 +1,247 @@
+npcs:
+  c50b3a3a-7010-44b5-a20a-93fb9708398c:
+    name: Naciones
+    creator: 963a06f9-eeec-363c-a300-7bc90771feef
+    displayName: Naciones
+    type: PLAYER
+    location:
+      world: lobby
+      x: 8.553999168632119
+      y: 1.0
+      z: 9.484042077284425
+      yaw: -179.99854
+      pitch: 2.8500001
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      mirrorSkin: false
+    actions:
+      RIGHT_CLICK:
+        '1':
+          action: console_command
+          value: mv tp {player} Naciones
+  30717318-5376-40f6-9eb2-d7588892a0a5:
+    name: Lobby
+    creator: 963a06f9-eeec-363c-a300-7bc90771feef
+    displayName: Lobby
+    type: PLAYER
+    location:
+      world: naciones
+      x: -20.528195978671448
+      y: 66.5
+      z: -33.5092388345256
+      yaw: -133.9512
+      pitch: 9.899926
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      mirrorSkin: false
+    actions:
+      RIGHT_CLICK:
+        '1':
+          action: console_command
+          value: mv tp {player} lobby
+  77640459-a388-47ab-b2ab-b3beadb0a856:
+    name: ArenaPvP
+    creator: 963a06f9-eeec-363c-a300-7bc90771feef
+    displayName: ArenaPvP
+    type: PLAYER
+    location:
+      world: lobby
+      x: 0.5297059118891034
+      y: 1.0
+      z: 11.550779073371897
+      yaw: 179.2504
+      pitch: 1.6499805
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      mirrorSkin: false
+    actions:
+      RIGHT_CLICK:
+        '1':
+          action: console_command
+          value: mvtp {player} Arena
+  7be16584-5bdf-4b76-aafb-da7878d78a6a:
+    name: Recursos
+    creator: 963a06f9-eeec-363c-a300-7bc90771feef
+    displayName: Recursos
+    type: PLAYER
+    location:
+      world: lobby
+      x: -3.485336417444324
+      y: 1.0
+      z: 10.621575352225534
+      yaw: -178.0496
+      pitch: 6.7499657
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      mirrorSkin: false
+    actions:
+      RIGHT_CLICK:
+        '1':
+          action: console_command
+          value: mvtp {player} world
+  86ee69e2-4c7d-4442-9b7e-f235e11d9141:
+    name: lobby3
+    creator: 963a06f9-eeec-363c-a300-7bc90771feef
+    displayName: lobby3
+    type: PLAYER
+    location:
+      world: world
+      x: -68.72031554287271
+      y: 78.5
+      z: -146.5556041246
+      yaw: -48.150238
+      pitch: 40.200024
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      mirrorSkin: false
+    actions:
+      RIGHT_CLICK:
+        '1':
+          action: console_command
+          value: mvtp {player} lobby
+  940cf1b1-4198-4899-b77c-2b7558f7eaec:
+    name: lobby2
+    creator: 963a06f9-eeec-363c-a300-7bc90771feef
+    displayName: lobby2
+    type: PLAYER
+    location:
+      world: Arena
+      x: -18.698477910896614
+      y: -42.0
+      z: -3.3638836408452915
+      yaw: -90.600044
+      pitch: 7.3500066
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      mirrorSkin: false
+    actions:
+      RIGHT_CLICK:
+        '1':
+          action: console_command
+          value: mvtp {player} lobby
+  a2bf81e2-4585-40b6-8496-a581dfd3585e:
+    name: Spawn
+    creator: 963a06f9-eeec-363c-a300-7bc90771feef
+    displayName: Spawn
+    type: PLAYER
+    location:
+      world: lobby2
+      x: -5.51891885062037
+      y: -26.0
+      z: -12.922976182041497
+      yaw: -89.99979
+      pitch: 5.54999
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      mirrorSkin: false
+  15906917-eb91-4d9c-bb6a-e6dba7d28fa1:
+    name: Maps
+    creator: 963a06f9-eeec-363c-a300-7bc90771feef
+    displayName: Maps
+    type: PLAYER
+    location:
+      world: lobby2
+      x: 8.410754601581509
+      y: -26.0
+      z: -19.699220158762508
+      yaw: -0.29943848
+      pitch: -3.8999994
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      mirrorSkin: false
+  8c2df58d-1be6-4214-88fc-4c22c1d1feb9:
+    name: Select_Maps
+    creator: 963a06f9-eeec-363c-a300-7bc90771feef
+    displayName: Select_Maps
+    type: PLAYER
+    location:
+      world: lobby2
+      x: -2.5
+      y: -26.0
+      z: -19.5
+      yaw: 0.15048218
+      pitch: -3.4499931
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      mirrorSkin: false

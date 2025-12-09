@@ -1,0 +1,81 @@
+tab:
+  default:
+    priority: 0
+    commands:
+    - "/warp"
+    - "/warps"
+    - "/teletransportes"
+    - "/login"
+    - "/register"
+    - "/spawn"
+    - "/changepassword"
+    - "/money"
+    - "/pay"
+    - "/shop"
+    - "/tienda"
+    - "/sellall"
+    - "/sellgui"
+    - "/sethome"
+    - "/homes"
+    - "/tpaall"
+    - "/tpaccept"
+    - "/tpano"
+    - "/tpayes"
+    - "/tpall"
+    - "/tpa"
+    - "/back"
+    - "/1vs1 join"
+    - "/1vs1 leave"
+    - "/1vs1 points"
+    - "/1vs1 top"
+    - "/1vs1 rjoin"
+    - "/1vs1 stats"
+    - "/1vs1 duel"
+  admin:
+    priority: 1
+    extends: default
+    commands:
+      - "/fly"
+blocked_command_default_actions:
+  - "message: &8[&cNavidadland&8] &7Comando desconocido."
+use_commands_as_whitelist: true
+is_network: false
+update_notify: true
+commands:
+- "/warp"
+- "/warps"
+- "/teletransportes"
+- "/login"
+- "/register"
+- "/spawn"
+- "/changepassword"
+- "/fly"
+- "/money"
+- "/pay"
+- "/shop"
+- "/tienda"
+- "/sellall"
+- "/sellgui"
+- "/sethome"
+- "/homes"
+- "/tpaall"
+- "/tpaccept"
+- "/tpano"
+- "/tpayes"
+- "/tpa"
+- "/back"
+- "/1vs1 join"
+- "/1vs1 leave"
+- "/1vs1 points"
+- "/1vs1 top"
+- "/1vs1 rjoin"
+- "/1vs1 stats"
+- "/1vs1 duel"
+custom_commands_actions:
+  example1:
+    commands:
+      - "/ver"
+      - "/version"
+      - "/about"
+    actions:
+      - "console_command: kick %player% You can't see the version of the server!"

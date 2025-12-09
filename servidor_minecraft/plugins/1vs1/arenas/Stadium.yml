@@ -1,0 +1,358 @@
+enabled: true
+prize:
+  economy:
+    enabled: true
+    amount: 1000
+  items:
+    enabled: true
+    itemPrizes:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: DIAMOND
+countdown:
+  beforeTeleport:
+    enabled: true
+    duration: 5
+    sound: true
+  beforeFight:
+    enabled: true
+    duration: 5
+    disableMoving: true
+    blindness: false
+    invincibility: true
+    sound: true
+points:
+  win: 5
+  lose: -2
+firework:
+  inArena: true
+  afterTeleport: true
+health: 30
+timeOut: 300
+rounds: 3
+maximumTeleportDistance: 1
+playerItemDrop: false
+playerItemPickUp: false
+winAnnouncement: true
+commandsToRunAtStart:
+- ungod {PLAYER1}
+- ungod {PLAYER2}
+commandsToRunAtEnd:
+- eco give {WINNER} 1000
+spawn1:
+  world: Arena
+  x: 0.44743756470130286
+  y: -42.0
+  z: -32.382224862793834
+  yaw: 2.1002197
+  pitch: 0.30002767
+spawn2:
+  world: Arena
+  x: 0.6611778412623078
+  y: -42.0
+  z: 34.50385342446976
+  yaw: -178.64996
+  pitch: 2.2499876
+inventory:
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: NETHERITE_SWORD
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: GOLDEN_APPLE
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: OAK_PLANKS
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:healing
+      custom-effects: &id002 []
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:healing
+      custom-effects: *id002
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:healing
+      custom-effects: *id002
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:healing
+      custom-effects: *id002
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:healing
+      custom-effects: *id002
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:healing
+      custom-effects: *id002
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:healing
+      custom-effects: *id002
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:healing
+      custom-effects: *id002
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:healing
+      custom-effects: *id002
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:healing
+      custom-effects: *id002
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:healing
+      custom-effects: *id002
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:healing
+      custom-effects: *id002
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:healing
+      custom-effects: *id002
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:healing
+      custom-effects: *id002
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:healing
+      custom-effects: *id002
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:healing
+      custom-effects: *id002
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:healing
+      custom-effects: *id002
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:healing
+      custom-effects: *id002
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:healing
+      custom-effects: *id002
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:healing
+      custom-effects: *id002
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:healing
+      custom-effects: *id002
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:healing
+      custom-effects: *id002
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:healing
+      custom-effects: *id002
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:healing
+      custom-effects: *id002
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:healing
+      custom-effects: *id002
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:healing
+      custom-effects: *id002
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:healing
+      custom-effects: *id002
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:healing
+      custom-effects: *id002
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:healing
+      custom-effects: *id002
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:healing
+      custom-effects: *id002
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:healing
+      custom-effects: *id002
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:healing
+      custom-effects: *id002
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:healing
+      custom-effects: *id002
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: NETHERITE_BOOTS
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: NETHERITE_LEGGINGS
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: NETHERITE_CHESTPLATE
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: NETHERITE_HELMET
+  - null
+  armor:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: NETHERITE_BOOTS
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: NETHERITE_LEGGINGS
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: NETHERITE_CHESTPLATE
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: NETHERITE_HELMET

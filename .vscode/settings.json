@@ -1,0 +1,15 @@
+{
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "python-envs.pythonProjects": [
+        {
+            "path": "servidor_minecraft/Trees",
+            "envManager": "ms-python.python:system",
+            "packageManager": "ms-python.python:pip"
+        },
+        {
+            "path": "servidor_minecraft/plugins/BedWars",
+            "envManager": "ms-python.python:system",
+            "packageManager": "ms-python.python:pip"
+        }
+    ]
+}
